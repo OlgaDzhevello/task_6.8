@@ -16,7 +16,7 @@ inputText.addEventListener('input', () => {
 
 // нажатие левой клавиши мыши для кнопки
 
-button.addEventListener('mousedown', (event) => {
+button.addEventListener('click', (event) => {
     if (event.which === 1) {
       console.log('Введенный текст: ' + inputText.value);
       inputText.value = '';

@@ -1,7 +1,27 @@
 /*  Начальный круг */
-#trafficLight {
+
+/* .box {
+    width: 120px;
+    height: 320px;
+    border-radius: 10px;
+    background: gray;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.box div {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background: black;
-  }
+    margin: 5px auto;
+
+} */
+
+.trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    margin: 5px auto;
+}
