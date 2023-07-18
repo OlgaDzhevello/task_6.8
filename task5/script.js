@@ -19,6 +19,7 @@ inputText.addEventListener('input', () => {
 button.addEventListener('click', (event) => {
     if (event.which === 1) {
       console.log('Введенный текст: ' + inputText.value);
+      event.preventDefault();
       inputText.value = '';
       duplicateField.textContent = '';
     } 

@@ -34,7 +34,6 @@ header .links>a:hover {
     margin: 0 80px;
 }
 
-
 /* Заголовок */
 h1 {
     font-weight: bold;
@@ -44,37 +43,51 @@ h1 {
     border-bottom: 2px #00b43f solid;
 }
 
-.solution {
-    margin-top: 10px;
-    border: 1px lightgray solid;
-    border-radius: 8px;
-    padding: 20px;
-}
-
 /* Описание задачи */
-
 .description * {
     margin: 0;
     padding: 4px 0;
 }
 
-/*  Коробка */
+/* область решения */
+.solution {
+    margin-top: 10px;
+    border: 1px lightgray solid;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
 
-.box {
-    width: 120px;
-    height: 320px;
-    border-radius: 10px;
-    background: gray;
-    margin: 0 auto;
+input {
     padding: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+    font-size: 16px;
+    color: rgb(0, 139, 0);
 }
 
-/*  Круги */
-
-.trafficLight {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: black;
-    margin: 5px auto;
+button {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px lightgray solid;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4e4e4e;
+    background-color: rgb(230, 230, 230);
 }
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+    color: #555555
+}
+
+
+#duplicateField {
+    /* font-weight: bold; */
+    color: rgb(0, 139, 0);
+} 
+
+
+

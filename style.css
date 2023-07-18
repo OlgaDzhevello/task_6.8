@@ -6,23 +6,32 @@ body {
     font-size: 15px;
 }
 
-/* Шапка */
-header {
+/* Шапка, подвал */
+header, footer {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
 
-header .links>a {
-    color: #646464;
-    font-size: 15px;
+header .links>a, footer .links>a  {
     padding: 0 20px;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-header .links>a:hover {
+header .links>a {
+    color: #646464;
+    font-size: 15px;
+}
+
+footer .links>a {
+    color: #636B6F;
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+}
+
+header .links>a:hover, footer .links>a:hover {
     color: #848484;
 }
 
@@ -44,37 +53,24 @@ h1 {
     border-bottom: 2px #00b43f solid;
 }
 
-.solution {
-    margin-top: 10px;
-    border: 1px lightgray solid;
-    border-radius: 8px;
-    padding: 20px;
-}
-
 /* Описание задачи */
-
 .description * {
     margin: 0;
     padding: 4px 0;
 }
 
-/*  Коробка */
-
-.box {
-    width: 120px;
-    height: 320px;
-    border-radius: 10px;
-    background: gray;
-    margin: 0 auto;
-    padding: 5px;
+/* Список */
+ul {
+    padding-left: 1em;
 }
 
-/*  Круги */
-
-.trafficLight {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: black;
-    margin: 5px auto;
+li a {
+    line-height: 1.8em;
+    color: #0075b4;
+    text-decoration: none;
 }
+
+li a:hover {
+    color: #36a0da;
+}
+
